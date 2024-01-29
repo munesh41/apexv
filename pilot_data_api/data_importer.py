@@ -30,8 +30,8 @@ class DataImporter:
     def _get_model(self, model_name):
 
         models = {
-            "aircraft": "Aircraft",
-            "flight": "Flight",
+            "aircraft": Aircraft,
+            "flight": Flights,
         }
 
         if model_name in models:
